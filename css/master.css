@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
 }
 
-header, footer {
+/* header, footer {
   background-color: lightgreen;
   border: 5px solid black;
   border-radius: 15px;
@@ -16,7 +16,7 @@ header, footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 main {
   display: flex;
@@ -31,20 +31,26 @@ article {
   flex: 4 0 60%;
   padding: 20px;
 }
-
+/*
 nav {
   background-color: lavender;
   border: 5px solid black;
   border-radius: 15px;
   order: -1;
   flex: 1 1 20%;
-}
+} */
 
 aside {
   background-color: lemonchiffon;
   border: 5px solid black;
   border-radius: 15px;
   flex: 1 1 20%;
+}
+
+#logo {
+  background-image: radial-gradient(circle, #000, olive);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 640px) {
