@@ -48,9 +48,12 @@ aside {
 }
 
 #logo {
-  background-image: radial-gradient(circle, #000, olive);
+  background-image: radial-gradient(circle at 50% 30%, #000, olive);
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
+}
+#info {
+  background-color: #darkkhaki;
 }
 
 @media screen and (max-width: 640px) {
